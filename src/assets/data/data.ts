@@ -2762,7 +2762,7 @@ const teluguWords: IWord[] = [
   },
 ];
 
-const data = {
+const data: Record<string, Array<IWord>> = {
   questionWords,
   pronounWords,
   prepositionWords,
