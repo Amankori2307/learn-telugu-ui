@@ -1,10 +1,10 @@
 import "./App.css";
-import { Button } from "./components/ui/button";
+import WordList from "./custom-components/word-list/word-list";
 
 function App() {
   return (
-    <div>
-      <Button variant={"outline"}>My Button</Button>
+    <div className="app">
+      <WordList />
     </div>
   );
 }
