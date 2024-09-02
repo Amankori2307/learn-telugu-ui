@@ -2769,8 +2769,8 @@ const data = {
   verbWords,
   adjectiveWords,
   conjunctionWords,
-  teluguPhrases,
   teluguWords,
+  teluguPhrases,
 };
 
 export default data;

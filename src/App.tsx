@@ -1,10 +1,10 @@
 import "./App.css";
-import WordList from "./custom-components/word-list/word-list";
+import WordListWrapper from "./custom-components/word-list-wrapper/word-list-wrapper";
 
 function App() {
   return (
     <div className="app">
-      <WordList />
+      <WordListWrapper />
     </div>
   );
 }
