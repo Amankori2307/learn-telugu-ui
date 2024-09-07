@@ -1,6 +1,6 @@
-import { IWord } from "@/interfaces/vocabulary.interfaces";
+import { IOldWord } from "@/interfaces/vocabulary.interfaces";
 
-const questionWords: IWord[] = [
+const questionWords: IOldWord[] = [
   {
     word: "Emi",
     meaning: "What",
@@ -202,7 +202,7 @@ const questionWords: IWord[] = [
     ],
   },
 ];
-const pronounWords: IWord[] = [
+const pronounWords: IOldWord[] = [
   {
     word: "Nenu",
     meaning: "I/Me",
@@ -354,16 +354,6 @@ const pronounWords: IWord[] = [
     ],
   },
   {
-    word: "Vaat",
-    meaning: "Their/Those",
-    pronunciation: "Vah-tah",
-    examples: [
-      "Vaatini teesuko. (Take those.)",
-      "Vaatini raavu. (Don’t bring those.)",
-      "Vaatikem jaruguthundi? (What is happening with those?)",
-    ],
-  },
-  {
     word: "Aayana",
     meaning: "He/Him (formal)",
     pronunciation: "Ah-yah-nah",
@@ -421,16 +411,10 @@ const pronounWords: IWord[] = [
       "Edaina undha? (Is there anything?)",
       "Edaina chesava? (Did you do anything?)",
       "Edaina ivvagalava? (Can you give anything?)",
-    ],
-  },
-  {
-    word: "Yedaina",
-    meaning: "Something",
-    pronunciation: "Yeh-dai-nah",
-    examples: [
-      "Yedaina jaruguthundha? (Is something happening?)",
-      "Yedaina cheppava? (Did you say something?)",
-      "Yedaina kavali? (Do you want something?)",
+
+      "Edaina jaruguthundha? (Is something happening?)",
+      "Edaina cheppava? (Did you say something?)",
+      "Edaina kavali? (Do you want something?)",
     ],
   },
   {
@@ -564,7 +548,7 @@ const pronounWords: IWord[] = [
     ],
   },
 ];
-const prepositionWords: IWord[] = [
+const prepositionWords: IOldWord[] = [
   {
     word: "Meda",
     meaning: "On",
@@ -955,7 +939,7 @@ const prepositionWords: IWord[] = [
     ],
   },
 ];
-const verbWords: IWord[] = [
+const verbWords: IOldWord[] = [
   {
     word: "Chesukoni",
     meaning: "To do/make",
@@ -1650,7 +1634,7 @@ const verbWords: IWord[] = [
     ],
   },
 ];
-const adjectiveWords: IWord[] = [
+const adjectiveWords: IOldWord[] = [
   {
     word: "Passionate",
     meaning: "Aasakti",
@@ -2027,7 +2011,7 @@ const adjectiveWords: IWord[] = [
     ],
   },
 ];
-const conjunctionWords: IWord[] = [
+const conjunctionWords: IOldWord[] = [
   {
     word: "Oka",
     meaning: "Or (alternative)",
@@ -2252,7 +2236,7 @@ const conjunctionWords: IWord[] = [
   },
 ];
 
-const teluguPhrases: IWord[] = [
+const teluguPhrases: IOldWord[] = [
   {
     word: "Gurthu unnana?",
     meaning: "Do you remember me?",
@@ -2561,7 +2545,7 @@ const teluguPhrases: IWord[] = [
     examples: ["Samayam ledhu. (There’s no time.)"],
   },
 ];
-const teluguWords: IWord[] = [
+const teluguWords: IOldWord[] = [
   {
     word: "Nuvvu",
     meaning: "You (informal)",
@@ -2762,7 +2746,7 @@ const teluguWords: IWord[] = [
   },
 ];
 
-const data: Record<string, Array<IWord>> = {
+const data: Record<string, Array<IOldWord>> = {
   questionWords,
   pronounWords,
   prepositionWords,

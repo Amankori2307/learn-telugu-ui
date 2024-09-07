@@ -4,10 +4,10 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
-import { IWord } from "@/interfaces/vocabulary.interfaces";
+import { IOldWord } from "@/interfaces/vocabulary.interfaces";
 
 interface IWordListProps {
-  wordList: Array<IWord>;
+  wordList: Array<IOldWord>;
 }
 
 function WordList(props: IWordListProps) {

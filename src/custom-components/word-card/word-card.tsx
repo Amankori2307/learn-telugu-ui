@@ -5,10 +5,10 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
-import { IWord } from "@/interfaces/vocabulary.interfaces";
+import { IOldWord } from "@/interfaces/vocabulary.interfaces";
 
 interface IWordCardProps {
-  word: IWord;
+  word: IOldWord;
 }
 
 function WordCard(props: IWordCardProps) {

@@ -1,9 +1,9 @@
 import data from "@/assets/data/data";
-import { IWord } from "@/interfaces/vocabulary.interfaces";
+import { IOldWord } from "@/interfaces/vocabulary.interfaces";
 
 const commonUtils = {
   getAllDataAsArray: () => {
-    const formattedData: Array<IWord> = [];
+    const formattedData: Array<IOldWord> = [];
     Object.keys(data).forEach((key) => formattedData.push(...data[key]));
     return formattedData;
   },
