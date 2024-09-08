@@ -5,13 +5,11 @@ import WordListWrapper from "./custom-components/word-list-wrapper/word-list-wra
 
 function App() {
   return (
-    // <div className="app">
     <Routes>
-      <Route path="/" element={<WordCarousel />} />
       <Route path="/word-carousel" element={<WordCarousel />} />
       <Route path="/word-list" element={<WordListWrapper />} />
+      <Route path="/" element={<WordCarousel />} />
     </Routes>
-    // </div >
   );
 }
 
